@@ -1,0 +1,1750 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.10+8b8e13593 for .NET Framework
+      Build started 2025-10-15 16:51:40.
+      
+      Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.55
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/4.1.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/erik/.cargo/bin/lld-link.com"
+      - "C:/Users/erik/.cargo/bin/lld-link.exe"
+      - "C:/Users/erik/.cargo/bin/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Program Files/WorldPainter/lld-link.com"
+      - "C:/Program Files/WorldPainter/lld-link.exe"
+      - "C:/Program Files/WorldPainter/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Python34/Scripts/lld-link.com"
+      - "C:/Python34/Scripts/lld-link.exe"
+      - "C:/Python34/Scripts/lld-link"
+      - "C:/Program Files/7-Zip/lld-link.com"
+      - "C:/Program Files/7-Zip/lld-link.exe"
+      - "C:/Program Files/7-Zip/lld-link"
+      - "C:/Users/erik/.dotnet/tools/lld-link.com"
+      - "C:/Users/erik/.dotnet/tools/lld-link.exe"
+      - "C:/Users/erik/.dotnet/tools/lld-link"
+      - "C:/raylib/lib/lld-link.com"
+      - "C:/raylib/lib/lld-link.exe"
+      - "C:/raylib/lib/lld-link"
+      - "C:/Dev/mingw64/bin/lld-link.com"
+      - "C:/Dev/mingw64/bin/lld-link.exe"
+      - "C:/Dev/mingw64/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/erik/.cargo/bin/mt.com"
+      - "C:/Users/erik/.cargo/bin/mt.exe"
+      - "C:/Users/erik/.cargo/bin/mt"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Program Files/WorldPainter/mt.com"
+      - "C:/Program Files/WorldPainter/mt.exe"
+      - "C:/Program Files/WorldPainter/mt"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Python34/Scripts/mt.com"
+      - "C:/Python34/Scripts/mt.exe"
+      - "C:/Python34/Scripts/mt"
+      - "C:/Program Files/7-Zip/mt.com"
+      - "C:/Program Files/7-Zip/mt.exe"
+      - "C:/Program Files/7-Zip/mt"
+      - "C:/Users/erik/.dotnet/tools/mt.com"
+      - "C:/Users/erik/.dotnet/tools/mt.exe"
+      - "C:/Users/erik/.dotnet/tools/mt"
+      - "C:/raylib/lib/mt.com"
+      - "C:/raylib/lib/mt.exe"
+      - "C:/raylib/lib/mt"
+      - "C:/Dev/mingw64/bin/mt.com"
+      - "C:/Dev/mingw64/bin/mt.exe"
+      - "C:/Dev/mingw64/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.10+8b8e13593 for .NET Framework
+      Build started 2025-10-15 16:51:41.
+      
+      Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.36
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/4.1.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/erik/.cargo/bin/lld-link.com"
+      - "C:/Users/erik/.cargo/bin/lld-link.exe"
+      - "C:/Users/erik/.cargo/bin/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Program Files/WorldPainter/lld-link.com"
+      - "C:/Program Files/WorldPainter/lld-link.exe"
+      - "C:/Program Files/WorldPainter/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Python34/Scripts/lld-link.com"
+      - "C:/Python34/Scripts/lld-link.exe"
+      - "C:/Python34/Scripts/lld-link"
+      - "C:/Program Files/7-Zip/lld-link.com"
+      - "C:/Program Files/7-Zip/lld-link.exe"
+      - "C:/Program Files/7-Zip/lld-link"
+      - "C:/Users/erik/.dotnet/tools/lld-link.com"
+      - "C:/Users/erik/.dotnet/tools/lld-link.exe"
+      - "C:/Users/erik/.dotnet/tools/lld-link"
+      - "C:/raylib/lib/lld-link.com"
+      - "C:/raylib/lib/lld-link.exe"
+      - "C:/raylib/lib/lld-link"
+      - "C:/Dev/mingw64/bin/lld-link.com"
+      - "C:/Dev/mingw64/bin/lld-link.exe"
+      - "C:/Dev/mingw64/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/EDGE/bin/"
+      - "C:/Program Files (x86)/EDGE/sbin/"
+      - "C:/Program Files (x86)/EDGE/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/erik/.cargo/bin/rc.com"
+      - "C:/Users/erik/.cargo/bin/rc.exe"
+      - "C:/Users/erik/.cargo/bin/rc"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Program Files/WorldPainter/rc.com"
+      - "C:/Program Files/WorldPainter/rc.exe"
+      - "C:/Program Files/WorldPainter/rc"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Python34/Scripts/rc.com"
+      - "C:/Python34/Scripts/rc.exe"
+      - "C:/Python34/Scripts/rc"
+      - "C:/Program Files/7-Zip/rc.com"
+      - "C:/Program Files/7-Zip/rc.exe"
+      - "C:/Program Files/7-Zip/rc"
+      - "C:/Users/erik/.dotnet/tools/rc.com"
+      - "C:/Users/erik/.dotnet/tools/rc.exe"
+      - "C:/Users/erik/.dotnet/tools/rc"
+      - "C:/raylib/lib/rc.com"
+      - "C:/raylib/lib/rc.exe"
+      - "C:/raylib/lib/rc"
+      - "C:/Dev/mingw64/bin/rc.com"
+      - "C:/Dev/mingw64/bin/rc.exe"
+      - "C:/Dev/mingw64/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/EDGE/bin/rc.com"
+      - "C:/Program Files (x86)/EDGE/bin/rc.exe"
+      - "C:/Program Files (x86)/EDGE/bin/rc"
+      - "C:/Program Files (x86)/EDGE/sbin/rc.com"
+      - "C:/Program Files (x86)/EDGE/sbin/rc.exe"
+      - "C:/Program Files (x86)/EDGE/sbin/rc"
+      - "C:/Program Files (x86)/EDGE/rc.com"
+      - "C:/Program Files (x86)/EDGE/rc.exe"
+      - "C:/Program Files (x86)/EDGE/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/EDGE"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/EDGE"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e903.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 2025-10-15 16:51:42.
+        
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\cmTC_8e903.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8e903.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\Debug\\".
+          Creating directory "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8e903.dir\\Debug\\\\" /Fd"cmTC_8e903.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8e903.dir\\Debug\\\\" /Fd"cmTC_8e903.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\Debug\\cmTC_8e903.exe" /INCREMENTAL /ILK:"cmTC_8e903.dir\\Debug\\cmTC_8e903.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp/Debug/cmTC_8e903.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp/Debug/cmTC_8e903.lib" /MACHINE:X64  /machine:x64 cmTC_8e903.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8e903.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\Debug\\cmTC_8e903.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\cmTC_8e903.lastbuildstate".
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\cmTC_8e903.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8008a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 2025-10-15 16:51:43.
+        
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\cmTC_8008a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8008a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\Debug\\".
+          Creating directory "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8008a.dir\\Debug\\\\" /Fd"cmTC_8008a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8008a.dir\\Debug\\\\" /Fd"cmTC_8008a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\Debug\\cmTC_8008a.exe" /INCREMENTAL /ILK:"cmTC_8008a.dir\\Debug\\cmTC_8008a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4/Debug/cmTC_8008a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4/Debug/cmTC_8008a.lib" /MACHINE:X64  /machine:x64 cmTC_8008a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8008a.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\Debug\\cmTC_8008a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\cmTC_8008a.lastbuildstate".
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\cmTC_8008a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.34
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "include/glfw/CMakeLists.txt:52 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-m9h25v"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-m9h25v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/erik/Documents/GitHub/EDGE/include/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-m9h25v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_71f2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 2025-10-15 16:51:43.
+        
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_71f2e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\Debug\\".
+          Creating directory "cmTC_71f2e.dir\\Debug\\cmTC_71f2e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_71f2e.dir\\Debug\\cmTC_71f2e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_71f2e.dir\\Debug\\cmTC_71f2e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_71f2e.dir\\Debug\\\\" /Fd"cmTC_71f2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_71f2e.dir\\Debug\\\\" /Fd"cmTC_71f2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c"
+          src.c
+        C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "include/glfw/CMakeLists.txt:52 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/erik/Documents/GitHub/EDGE/include/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cbec3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 2025-10-15 16:51:44.
+        
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cbec3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\Debug\\".
+          Creating directory "cmTC_cbec3.dir\\Debug\\cmTC_cbec3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cbec3.dir\\Debug\\cmTC_cbec3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cbec3.dir\\Debug\\cmTC_cbec3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cbec3.dir\\Debug\\\\" /Fd"cmTC_cbec3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cbec3.dir\\Debug\\\\" /Fd"cmTC_cbec3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\Debug\\cmTC_cbec3.exe" /INCREMENTAL /ILK:"cmTC_cbec3.dir\\Debug\\cmTC_cbec3.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih/Debug/cmTC_cbec3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih/Debug/cmTC_cbec3.lib" /MACHINE:X64  /machine:x64 cmTC_cbec3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "include/glfw/CMakeLists.txt:52 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/erik/Documents/GitHub/EDGE/include/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68e81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 2025-10-15 16:51:44.
+        
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_68e81.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\Debug\\".
+          Creating directory "cmTC_68e81.dir\\Debug\\cmTC_68e81.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_68e81.dir\\Debug\\cmTC_68e81.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_68e81.dir\\Debug\\cmTC_68e81.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_68e81.dir\\Debug\\\\" /Fd"cmTC_68e81.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_68e81.dir\\Debug\\\\" /Fd"cmTC_68e81.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\Debug\\cmTC_68e81.exe" /INCREMENTAL /ILK:"cmTC_68e81.dir\\Debug\\cmTC_68e81.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra/Debug/cmTC_68e81.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra/Debug/cmTC_68e81.lib" /MACHINE:X64  /machine:x64 cmTC_68e81.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake:753 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake:937 (_Doxygen_find_doxygen)"
+      - "include/glfw/docs/CMakeLists.txt:39 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/EDGE/bin/"
+      - "C:/Program Files (x86)/EDGE/sbin/"
+      - "C:/Program Files (x86)/EDGE/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/doxygen"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/doxygen.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/doxygen.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/doxygen"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen"
+      - "C:/Windows/System32/doxygen.com"
+      - "C:/Windows/System32/doxygen.exe"
+      - "C:/Windows/System32/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/System32/wbem/doxygen.com"
+      - "C:/Windows/System32/wbem/doxygen.exe"
+      - "C:/Windows/System32/wbem/doxygen"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/System32/OpenSSH/doxygen.com"
+      - "C:/Windows/System32/OpenSSH/doxygen.exe"
+      - "C:/Windows/System32/OpenSSH/doxygen"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/doxygen.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/doxygen.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/doxygen"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen"
+      - "C:/Program Files/dotnet/doxygen.com"
+      - "C:/Program Files/dotnet/doxygen.exe"
+      - "C:/Program Files/dotnet/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen"
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/Program Files/Git/cmd/doxygen.com"
+      - "C:/Program Files/Git/cmd/doxygen.exe"
+      - "C:/Program Files/Git/cmd/doxygen"
+      - "C:/Users/erik/.cargo/bin/doxygen.com"
+      - "C:/Users/erik/.cargo/bin/doxygen.exe"
+      - "C:/Users/erik/.cargo/bin/doxygen"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/doxygen.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/doxygen.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/doxygen"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/doxygen.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/doxygen.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/doxygen"
+      - "C:/Program Files/WorldPainter/doxygen.com"
+      - "C:/Program Files/WorldPainter/doxygen.exe"
+      - "C:/Program Files/WorldPainter/doxygen"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/doxygen.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/doxygen.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/doxygen"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/doxygen.com"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/doxygen.exe"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/doxygen"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.com"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/doxygen"
+      - "C:/Python34/Scripts/doxygen.com"
+      - "C:/Python34/Scripts/doxygen.exe"
+      - "C:/Python34/Scripts/doxygen"
+      - "C:/Program Files/7-Zip/doxygen.com"
+      - "C:/Program Files/7-Zip/doxygen.exe"
+      - "C:/Program Files/7-Zip/doxygen"
+      - "C:/Users/erik/.dotnet/tools/doxygen.com"
+      - "C:/Users/erik/.dotnet/tools/doxygen.exe"
+      - "C:/Users/erik/.dotnet/tools/doxygen"
+      - "C:/raylib/lib/doxygen.com"
+      - "C:/raylib/lib/doxygen.exe"
+      - "C:/raylib/lib/doxygen"
+      - "C:/Dev/mingw64/bin/doxygen.com"
+    found: "C:/Dev/mingw64/bin/doxygen.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/EDGE"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/EDGE"
+...

@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
+C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/cmake.verify_globs
+C:/Users/erik/Documents/GitHub/EDGE/include/glfw/docs/CMakeLists.txt
+C:/Users/erik/Documents/GitHub/EDGE/include/glfw/docs/Doxyfile.in

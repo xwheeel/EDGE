@@ -1,0 +1,10 @@
+^C:\USERS\ERIK\DOCUMENTS\GITHUB\EDGE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/erik/Documents/GitHub/EDGE -BC:/Users/erik/Documents/GitHub/EDGE/build --check-stamp-file C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

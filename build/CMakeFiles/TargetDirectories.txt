@@ -1,0 +1,12 @@
+C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/EDGE.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/INSTALL.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/CMakeFiles/uninstall.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/CMakeFiles/INSTALL.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/src/CMakeFiles/glfw.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/docs/CMakeFiles/docs.dir
+C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/docs/CMakeFiles/INSTALL.dir

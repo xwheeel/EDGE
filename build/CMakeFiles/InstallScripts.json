@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/erik/Documents/GitHub/EDGE/build/cmake_install.cmake",
+		"C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/cmake_install.cmake",
+		"C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/src/cmake_install.cmake",
+		"C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

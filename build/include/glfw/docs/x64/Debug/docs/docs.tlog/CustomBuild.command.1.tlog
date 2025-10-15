@@ -1,0 +1,32 @@
+^C:\USERS\ERIK\DOCUMENTS\GITHUB\EDGE\BUILD\INCLUDE\GLFW\DOCS\DOXYFILE
+setlocal
+cd C:\Users\erik\Documents\GitHub\EDGE\build\include\glfw\docs
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Dev\mingw64\bin\doxygen.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ERIK\DOCUMENTS\GITHUB\EDGE\BUILD\CMAKEFILES\22DD88581E16E743FAE507B5FFCBC58E\DOCS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ERIK\DOCUMENTS\GITHUB\EDGE\INCLUDE\GLFW\DOCS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/erik/Documents/GitHub/EDGE -BC:/Users/erik/Documents/GitHub/EDGE/build --check-stamp-file C:/Users/erik/Documents/GitHub/EDGE/build/include/glfw/docs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
