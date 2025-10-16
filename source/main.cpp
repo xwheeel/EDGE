@@ -11,7 +11,7 @@ int main() {
     bgfx::setPlatformData(platformData);
 
     bgfx::Init init;
-    init.type = bgfx::RendererType::Count; // auto-detect
+    init.type = bgfx::RendererType::Count; // auto
     bgfx::init(init);
 
     while (!glfwWindowShouldClose(window)) {

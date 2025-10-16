@@ -17,12 +17,18 @@ target_precompile_headers(${PROJECT_NAME} PRIVATE
 
 target_include_directories(${PROJECT_NAME} PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/source"
-    #"${CMAKE_CURRENT_SOURCE_DIR}/include/glm"
-    "${CMAKE_CURRENT_SOURCE_DIR}/include/bgfx/include"
-    "${CMAKE_CURRENT_SOURCE_DIR}/include/bgfx/3rdparty"
 )
 
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/include/glfw")
+
 target_link_libraries(${PROJECT_NAME} PRIVATE
     glfw
+)
+
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/include/bgfx.cmake")
+
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    bx
+    bimg
+    bgfx
 )

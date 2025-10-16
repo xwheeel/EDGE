@@ -69,6 +69,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -85,7 +86,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.10+8b8e13593 for .NET Framework
-      Build started 2025-10-15 16:51:40.
+      Build started 2025-10-16 15:40:18.
       
       Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -114,7 +115,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.55
+      Time Elapsed 00:00:00.37
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -173,6 +174,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
@@ -212,6 +214,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -261,6 +264,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -343,6 +347,9 @@ events:
       - "C:/Dev/mingw64/bin/lld-link.com"
       - "C:/Dev/mingw64/bin/lld-link.exe"
       - "C:/Dev/mingw64/bin/lld-link"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
@@ -380,6 +387,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -427,6 +435,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
@@ -466,6 +475,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -513,6 +523,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
@@ -595,6 +606,9 @@ events:
       - "C:/Dev/mingw64/bin/mt.com"
       - "C:/Dev/mingw64/bin/mt.exe"
       - "C:/Dev/mingw64/bin/mt"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/mt"
     found: false
     search_context:
       ENV{PATH}:
@@ -632,6 +646,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -679,6 +694,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
@@ -718,6 +734,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -779,6 +796,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -795,7 +813,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.10+8b8e13593 for .NET Framework
-      Build started 2025-10-15 16:51:41.
+      Build started 2025-10-16 15:40:19.
       
       Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -824,7 +842,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.36
+      Time Elapsed 00:00:00.35
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -883,6 +901,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
@@ -965,6 +984,9 @@ events:
       - "C:/Dev/mingw64/bin/lld-link.com"
       - "C:/Dev/mingw64/bin/lld-link.exe"
       - "C:/Dev/mingw64/bin/lld-link"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
@@ -1002,6 +1024,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1051,6 +1074,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1142,6 +1166,9 @@ events:
       - "C:/Dev/mingw64/bin/rc.com"
       - "C:/Dev/mingw64/bin/rc.exe"
       - "C:/Dev/mingw64/bin/rc"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1215,6 +1242,7 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/EDGE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1230,8 +1258,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp"
-      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp"
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hnlgrj"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hnlgrj"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1240,40 +1268,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp'
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hnlgrj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e903.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02d5f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.10+8b8e13593 for .NET Framework
-        Build started 2025-10-15 16:51:42.
+        Build started 2025-10-16 15:40:20.
         
-        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\cmTC_8e903.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hnlgrj\\cmTC_02d5f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8e903.dir\\Debug\\".
+          Creating directory "cmTC_02d5f.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\Debug\\".
-          Creating directory "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\".
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hnlgrj\\Debug\\".
+          Creating directory "cmTC_02d5f.dir\\Debug\\cmTC_02d5f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\unsuccessfulbuild".
+          Creating "cmTC_02d5f.dir\\Debug\\cmTC_02d5f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_02d5f.dir\\Debug\\cmTC_02d5f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8e903.dir\\Debug\\\\" /Fd"cmTC_8e903.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_02d5f.dir\\Debug\\\\" /Fd"cmTC_02d5f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8e903.dir\\Debug\\\\" /Fd"cmTC_8e903.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_02d5f.dir\\Debug\\\\" /Fd"cmTC_02d5f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\Debug\\cmTC_8e903.exe" /INCREMENTAL /ILK:"cmTC_8e903.dir\\Debug\\cmTC_8e903.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp/Debug/cmTC_8e903.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-4s2qyp/Debug/cmTC_8e903.lib" /MACHINE:X64  /machine:x64 cmTC_8e903.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_8e903.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\Debug\\cmTC_8e903.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hnlgrj\\Debug\\cmTC_02d5f.exe" /INCREMENTAL /ILK:"cmTC_02d5f.dir\\Debug\\cmTC_02d5f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hnlgrj/Debug/cmTC_02d5f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hnlgrj/Debug/cmTC_02d5f.lib" /MACHINE:X64  /machine:x64 cmTC_02d5f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_02d5f.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hnlgrj\\Debug\\cmTC_02d5f.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8e903.dir\\Debug\\cmTC_8e903.tlog\\cmTC_8e903.lastbuildstate".
-        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4s2qyp\\cmTC_8e903.vcxproj" (default targets).
+          Deleting file "cmTC_02d5f.dir\\Debug\\cmTC_02d5f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_02d5f.dir\\Debug\\cmTC_02d5f.tlog\\cmTC_02d5f.lastbuildstate".
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hnlgrj\\cmTC_02d5f.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.35
+        Time Elapsed 00:00:00.33
         
       exitCode: 0
   -
@@ -1313,8 +1341,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4"
-      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4"
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hk1r11"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hk1r11"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1324,40 +1352,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4'
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hk1r11'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8008a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_36053.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.10+8b8e13593 for .NET Framework
-        Build started 2025-10-15 16:51:43.
+        Build started 2025-10-16 15:40:20.
         
-        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\cmTC_8008a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hk1r11\\cmTC_36053.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8008a.dir\\Debug\\".
+          Creating directory "cmTC_36053.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\Debug\\".
-          Creating directory "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\".
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hk1r11\\Debug\\".
+          Creating directory "cmTC_36053.dir\\Debug\\cmTC_36053.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_36053.dir\\Debug\\cmTC_36053.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_36053.dir\\Debug\\cmTC_36053.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8008a.dir\\Debug\\\\" /Fd"cmTC_8008a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_36053.dir\\Debug\\\\" /Fd"cmTC_36053.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8008a.dir\\Debug\\\\" /Fd"cmTC_8008a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_36053.dir\\Debug\\\\" /Fd"cmTC_36053.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\Debug\\cmTC_8008a.exe" /INCREMENTAL /ILK:"cmTC_8008a.dir\\Debug\\cmTC_8008a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4/Debug/cmTC_8008a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-17jiq4/Debug/cmTC_8008a.lib" /MACHINE:X64  /machine:x64 cmTC_8008a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8008a.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\Debug\\cmTC_8008a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hk1r11\\Debug\\cmTC_36053.exe" /INCREMENTAL /ILK:"cmTC_36053.dir\\Debug\\cmTC_36053.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hk1r11/Debug/cmTC_36053.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-hk1r11/Debug/cmTC_36053.lib" /MACHINE:X64  /machine:x64 cmTC_36053.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_36053.vcxproj -> C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hk1r11\\Debug\\cmTC_36053.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8008a.dir\\Debug\\cmTC_8008a.tlog\\cmTC_8008a.lastbuildstate".
-        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-17jiq4\\cmTC_8008a.vcxproj" (default targets).
+          Deleting file "cmTC_36053.dir\\Debug\\cmTC_36053.tlog\\unsuccessfulbuild".
+          Touching "cmTC_36053.dir\\Debug\\cmTC_36053.tlog\\cmTC_36053.lastbuildstate".
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hk1r11\\cmTC_36053.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.34
+        Time Elapsed 00:00:00.33
         
       exitCode: 0
   -
@@ -1399,8 +1427,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-m9h25v"
-      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-m9h25v"
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-z86z6f"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-z86z6f"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1410,40 +1438,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-m9h25v'
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-z86z6f'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_71f2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a325.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.10+8b8e13593 for .NET Framework
-        Build started 2025-10-15 16:51:43.
+        Build started 2025-10-16 15:40:21.
         
-        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\cmTC_0a325.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_71f2e.dir\\Debug\\".
+          Creating directory "cmTC_0a325.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\Debug\\".
-          Creating directory "cmTC_71f2e.dir\\Debug\\cmTC_71f2e.tlog\\".
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\Debug\\".
+          Creating directory "cmTC_0a325.dir\\Debug\\cmTC_0a325.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_71f2e.dir\\Debug\\cmTC_71f2e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_71f2e.dir\\Debug\\cmTC_71f2e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0a325.dir\\Debug\\cmTC_0a325.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0a325.dir\\Debug\\cmTC_0a325.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_71f2e.dir\\Debug\\\\" /Fd"cmTC_71f2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0a325.dir\\Debug\\\\" /Fd"cmTC_0a325.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_71f2e.dir\\Debug\\\\" /Fd"cmTC_71f2e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_0a325.dir\\Debug\\\\" /Fd"cmTC_0a325.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\src.c"
           src.c
-        C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj]
-        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\cmTC_0a325.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\cmTC_0a325.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj" (default target) (1) ->
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\cmTC_0a325.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m9h25v\\cmTC_71f2e.vcxproj]
+          C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z86z6f\\cmTC_0a325.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.24
+        Time Elapsed 00:00:00.20
         
       exitCode: 1
   -
@@ -1456,8 +1484,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih"
-      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih"
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-jmngno"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-jmngno"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1467,37 +1495,37 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih'
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-jmngno'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cbec3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_77293.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.10+8b8e13593 for .NET Framework
-        Build started 2025-10-15 16:51:44.
+        Build started 2025-10-16 15:40:21.
         
-        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\cmTC_77293.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_cbec3.dir\\Debug\\".
+          Creating directory "cmTC_77293.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\Debug\\".
-          Creating directory "cmTC_cbec3.dir\\Debug\\cmTC_cbec3.tlog\\".
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\Debug\\".
+          Creating directory "cmTC_77293.dir\\Debug\\cmTC_77293.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_cbec3.dir\\Debug\\cmTC_cbec3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_cbec3.dir\\Debug\\cmTC_cbec3.tlog\\unsuccessfulbuild".
+          Creating "cmTC_77293.dir\\Debug\\cmTC_77293.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_77293.dir\\Debug\\cmTC_77293.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cbec3.dir\\Debug\\\\" /Fd"cmTC_cbec3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_77293.dir\\Debug\\\\" /Fd"cmTC_77293.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_cbec3.dir\\Debug\\\\" /Fd"cmTC_cbec3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_77293.dir\\Debug\\\\" /Fd"cmTC_77293.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\Debug\\cmTC_cbec3.exe" /INCREMENTAL /ILK:"cmTC_cbec3.dir\\Debug\\cmTC_cbec3.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih/Debug/cmTC_cbec3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-u5e1ih/Debug/cmTC_cbec3.lib" /MACHINE:X64  /machine:x64 cmTC_cbec3.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj]
-        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\Debug\\cmTC_77293.exe" /INCREMENTAL /ILK:"cmTC_77293.dir\\Debug\\cmTC_77293.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-jmngno/Debug/cmTC_77293.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-jmngno/Debug/cmTC_77293.lib" /MACHINE:X64  /machine:x64 cmTC_77293.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\cmTC_77293.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\cmTC_77293.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj" (default target) (1) ->
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\cmTC_77293.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u5e1ih\\cmTC_cbec3.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmngno\\cmTC_77293.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -1515,8 +1543,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra"
-      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra"
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-7oqjiu"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-7oqjiu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1526,37 +1554,37 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra'
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-7oqjiu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68e81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9640a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.10+8b8e13593 for .NET Framework
-        Build started 2025-10-15 16:51:44.
+        Build started 2025-10-16 15:40:22.
         
-        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\cmTC_9640a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_68e81.dir\\Debug\\".
+          Creating directory "cmTC_9640a.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\Debug\\".
-          Creating directory "cmTC_68e81.dir\\Debug\\cmTC_68e81.tlog\\".
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\Debug\\".
+          Creating directory "cmTC_9640a.dir\\Debug\\cmTC_9640a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_68e81.dir\\Debug\\cmTC_68e81.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_68e81.dir\\Debug\\cmTC_68e81.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9640a.dir\\Debug\\cmTC_9640a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9640a.dir\\Debug\\cmTC_9640a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_68e81.dir\\Debug\\\\" /Fd"cmTC_68e81.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9640a.dir\\Debug\\\\" /Fd"cmTC_9640a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_68e81.dir\\Debug\\\\" /Fd"cmTC_68e81.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9640a.dir\\Debug\\\\" /Fd"cmTC_9640a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\Debug\\cmTC_68e81.exe" /INCREMENTAL /ILK:"cmTC_68e81.dir\\Debug\\cmTC_68e81.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra/Debug/cmTC_68e81.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-bw91ra/Debug/cmTC_68e81.lib" /MACHINE:X64  /machine:x64 cmTC_68e81.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj]
-        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\Debug\\cmTC_9640a.exe" /INCREMENTAL /ILK:"cmTC_9640a.dir\\Debug\\cmTC_9640a.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-7oqjiu/Debug/cmTC_9640a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-7oqjiu/Debug/cmTC_9640a.lib" /MACHINE:X64  /machine:x64 cmTC_9640a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\cmTC_9640a.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\cmTC_9640a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj" (default target) (1) ->
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\cmTC_9640a.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bw91ra\\cmTC_68e81.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7oqjiu\\cmTC_9640a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -1610,6 +1638,7 @@ events:
       - "C:/Users/erik/.dotnet/tools/"
       - "C:/raylib/lib/"
       - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1741,10 +1770,334 @@ events:
         - "C:\\Users\\erik\\.dotnet\\tools"
         - "C:\\raylib\\lib"
         - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/EDGE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/EDGE"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "include/bgfx.cmake/cmake/version.cmake:13 (find_package)"
+      - "include/bgfx.cmake/CMakeLists.txt:103 (include)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/erik/.cargo/bin/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/"
+      - "C:/Program Files/WorldPainter/"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Python34/Scripts/"
+      - "C:/Program Files/7-Zip/"
+      - "C:/Users/erik/.dotnet/tools/"
+      - "C:/raylib/lib/"
+      - "C:/Dev/mingw64/bin/"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/EDGE/bin/"
+      - "C:/Program Files (x86)/EDGE/sbin/"
+      - "C:/Program Files (x86)/EDGE/"
+      - "C:/Users/erik/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Users/erik/.cargo/bin/git.cmd.com"
+      - "C:/Users/erik/.cargo/bin/git.cmd.exe"
+      - "C:/Users/erik/.cargo/bin/git.cmd"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/Scripts/git.cmd"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Python313/git.cmd"
+      - "C:/Program Files/WorldPainter/git.cmd.com"
+      - "C:/Program Files/WorldPainter/git.cmd.exe"
+      - "C:/Program Files/WorldPainter/git.cmd"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Python34/Scripts/git.cmd.com"
+      - "C:/Python34/Scripts/git.cmd.exe"
+      - "C:/Python34/Scripts/git.cmd"
+      - "C:/Program Files/7-Zip/git.cmd.com"
+      - "C:/Program Files/7-Zip/git.cmd.exe"
+      - "C:/Program Files/7-Zip/git.cmd"
+      - "C:/Users/erik/.dotnet/tools/git.cmd.com"
+      - "C:/Users/erik/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/erik/.dotnet/tools/git.cmd"
+      - "C:/raylib/lib/git.cmd.com"
+      - "C:/raylib/lib/git.cmd.exe"
+      - "C:/raylib/lib/git.cmd"
+      - "C:/Dev/mingw64/bin/git.cmd.com"
+      - "C:/Dev/mingw64/bin/git.cmd.exe"
+      - "C:/Dev/mingw64/bin/git.cmd"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/GitHubDesktop/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/EDGE/bin/git.cmd.com"
+      - "C:/Program Files (x86)/EDGE/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/EDGE/bin/git.cmd"
+      - "C:/Program Files (x86)/EDGE/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/EDGE/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/EDGE/sbin/git.cmd"
+      - "C:/Program Files (x86)/EDGE/git.cmd.com"
+      - "C:/Program Files (x86)/EDGE/git.cmd.exe"
+      - "C:/Program Files (x86)/EDGE/git.cmd"
+      - "C:/Users/erik/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/erik/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/erik/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/git"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git"
+      - "C:/Program Files/CMake/bin/git.com"
+      - "C:/Program Files/CMake/bin/git.exe"
+      - "C:/Program Files/CMake/bin/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\erik\\.cargo\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\WorldPainter"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\erik\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\erik\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Python34\\Scripts"
+        - "C:\\Program Files\\7-Zip"
+        - "C:\\Users\\erik\\.dotnet\\tools"
+        - "C:\\raylib\\lib"
+        - "C:\\Dev\\mingw64\\bin"
+        - "C:\\Users\\erik\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/EDGE"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/EDGE"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "include/bgfx.cmake/cmake/bimg/bimg_encode.cmake:71 (check_cxx_compiler_flag)"
+      - "include/bgfx.cmake/cmake/bimg/CMakeLists.txt:24 (include)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-8vyzfd"
+      binary: "C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-8vyzfd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/erik/Documents/GitHub/EDGE/build/CMakeFiles/CMakeScratch/TryCompile-8vyzfd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_30258.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.10+8b8e13593 for .NET Framework
+        Build started 2025-10-16 15:40:22.
+        
+        Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\cmTC_30258.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_30258.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\Debug\\".
+          Creating directory "cmTC_30258.dir\\Debug\\cmTC_30258.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_30258.dir\\Debug\\cmTC_30258.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_30258.dir\\Debug\\cmTC_30258.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /std:c++17 /Fo"cmTC_30258.dir\\Debug\\\\" /Fd"cmTC_30258.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /std:c++17 /Fo"cmTC_30258.dir\\Debug\\\\" /Fd"cmTC_30258.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\src.cxx"
+        cl : command line  error D8021: invalid numeric argument '/Wno-implicit-fallthrough' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\cmTC_30258.vcxproj]
+        Done Building Project "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\cmTC_30258.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\cmTC_30258.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  error D8021: invalid numeric argument '/Wno-implicit-fallthrough' [C:\\Users\\erik\\Documents\\GitHub\\EDGE\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8vyzfd\\cmTC_30258.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.19
+        
+      exitCode: 1
 ...

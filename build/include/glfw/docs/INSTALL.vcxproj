@@ -196,7 +196,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\erik\Documents\GitHub\EDGE\build\include\glfw\ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:\Users\erik\Documents\GitHub\EDGE\build\include\bgfx.cmake\ALL_BUILD.vcxproj">
       <Project>{17717420-F01D-391C-BEE9-52D28829CEED}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

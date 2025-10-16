@@ -4,6 +4,8 @@
 #define GLFW_EXPOSE_NATIVE_WGL
 #define GLFW_NATIVE_INCLUDE_NONE
 
+#include <Windows.h>
+
 #include <glfw/glfw3.h>
 #include <glfw/glfw3native.h>
 
