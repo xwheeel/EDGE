@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\erik\Documents\GitHub\EDGE\source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\erik\Documents\GitHub\EDGE\source\render\triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\erik\Documents\GitHub\EDGE\build\CMakeFiles\EDGE.dir\Debug\cmake_pch.hxx">

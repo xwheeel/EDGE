@@ -5,6 +5,7 @@
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/erik/Documents/GitHub/EDGE/source/*.cpp")
 set(OLD_GLOB
   "C:/Users/erik/Documents/GitHub/EDGE/source/main.cpp"
+  "C:/Users/erik/Documents/GitHub/EDGE/source/render/triangle.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

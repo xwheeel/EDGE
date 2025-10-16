@@ -1,4 +1,5 @@
 #include "pch.h"
+#include "triangle.h"
 
 int main() {
     if (!glfwInit()) return -1;
@@ -14,10 +15,18 @@ int main() {
     init.type = bgfx::RendererType::Count; // auto
     bgfx::init(init);
 
+    EDGE::Triangle::InitTriangle();
+
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
+
+        bgfx::touch(0);
+        EDGE::Triangle::RenderTriangle();
+
         bgfx::frame();
     }
+
+    EDGE::Triangle::ShutdownTriangle();
 
     bgfx::shutdown();
     glfwDestroyWindow(window);
